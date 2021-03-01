@@ -22,5 +22,5 @@ app.listen(PORT, () => console.log(`App listening on PORT: ${PORT}`));
 // The below points our server to a series of "route" files.
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 
-require('./routes/htmlRoutes.js')(app);
-require('./routes/apiRoutes.js')(app);
+require('./public/routes/htmlRoutes.js')(app);
+require('./public/routes/apiRoutes.js')(app);
