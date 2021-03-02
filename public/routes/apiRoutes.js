@@ -17,9 +17,9 @@ module.exports = (app) => {
     // console.log(req.params.id)
     const id = req.params.id;
     let found;
-    notes.forEach(n => {
-      if (id == n.id){
-        found = n;
+    notes.forEach(note => {
+      if (id == note.id){
+        found = note;
         return res.json(n)
       }
     })
@@ -51,8 +51,8 @@ module.exports = (app) => {
   //Also, https://www.geeksforgeeks.org/how-to-read-and-write-json-file-using-node-js/ for general info.
   app.delete("/api/notes/:id", (req, res) => {
     const id = req.params.id;
-    notes.forEach((n, index) => {
-      if(id == n.id){
+    notes.forEach((note, index) => {
+      if(id == note.id){
         //splice takes the appropriate element out of the array.
         notes.splice(index,1)
         //Slice copies a given part of an array and returns that copied part as a new array.

@@ -9,7 +9,6 @@ module.exports = (app) => {
 
   app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../notes.html'));
-    console.log("on the right path")
   });
 
   // If no matching route is found default to index.html
