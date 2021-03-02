@@ -9,12 +9,6 @@ const fs = require('fs');
 module.exports = (app) => {
 
   let notesData = [];
-  // API GET Requests
-
-  // app.post('/api/notes', (req, res) => {
-  //     db.push(req.body);
-  //     res.json(true);
-  //   });
 
   app.get("/api/notes", function(err, res) {
     try {
