@@ -3,7 +3,6 @@
 
 const express = require('express');
 const app = express();
-const fs = require('fs');
 
 
 // Sets an initial port. We"ll use this later in our listener
