@@ -5,11 +5,6 @@
 
 A webpage for taking notes and storing them for use later as well as to share notes
 
-![image](https://github.com/landonross/codeQuiz/blob/main/Screenshots/screenshot1.jpg?raw=true)
-
-![image](https://github.com/landonross/codeQuiz/blob/main/Screenshots/screenshot1.jpg?raw=true)
-
-![image](https://github.com/landonross/codeQuiz/blob/main/Screenshots/screenshot1.jpg?raw=true)
 
 * [Installation](#Installation)
 
@@ -22,6 +17,12 @@ A webpage for taking notes and storing them for use later as well as to share no
 * [Author](#Author)
 
 * [Tests](#Tests)
+
+![image](https://github.com/landonross/Note_taker/blob/main/images/home_page.jpg?raw=true)
+
+![image](https://github.com/landonross/Note_taker/blob/main/images/making_note.jpg?raw=true)
+
+![image](https://github.com/landonross/Note_taker/blob/main/images/saved_note.jpg?raw=true)
 
 ## Installation
 N/A
